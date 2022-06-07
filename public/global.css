@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background: #330449;
+    color: #fff;
+}
+
+label {
+    display: block;
+}
+
+* {
+    user-select: none;
+    -webkit-user-drag: none;
+    box-sizing: border-box;
+}
+
+a {
+    align-self: flex-start;
+    color: #7a3d98;
+    text-decoration: none;
+    outline: none;
+    transition: color 500ms ease;
+}
+
+a:hover, a:focus {
+    color: #a55aca;
+    transition: color 100ms ease;
+}
